@@ -17,4 +17,6 @@
 <b>Nomor 6</b> : Query untuk menampilkan kelompok kategori dari produk-produk
 <br>
 <b>Nomor 7</b> : Web sederhana menggunakan PHP, HTML, SQLite3, Bootstrap
+<br><br>
+![alt text](https://banner2.kisspng.com/20180528/wwa/kisspng-computer-icons-clip-art-thank-you-tag-5b0bb88d7322d4.4564196615274947974716.jpg)
 
