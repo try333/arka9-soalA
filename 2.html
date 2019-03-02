@@ -1,0 +1,15 @@
+<script>
+pwd="123Qwer_";
+
+up=pwd.replace(/[^A-Z]/g, "").length;
+lo=pwd.replace(/[^a-z]/g, "").length;
+spc = (pwd.match(/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/g) || []).length;
+
+if(pwd.length==8 && up>=1 && lo>=1 && spc>=1){
+    alert("Success");
+}
+else{
+    alert("Failed"); 
+}
+
+</script>

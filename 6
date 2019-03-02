@@ -1,0 +1,1 @@
+SELECT categories.id, categories.name, GROUP_CONCAT(products.name) FROM categories,products WHERE categories.id = products.category_id GROUP BY products.category_id

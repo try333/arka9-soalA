@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1</title>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+</html>
+<script>
+var bio = {
+	"name" : "Tri Hariadi Purnomo",
+	"address" : "Jalan Cendana",
+	"hobbies" : ["badminton", "soccer", "gaming", "coding"],
+	"is_married" :  false,
+	"school" : {
+		"highSchool" : "SMA Negeri 2 Parepare", 
+		"university" : "Universitas Muhammadiyah Parepare"
+	},
+	"skills" : [{"name" : "Microsoft Office", "score" : 4},
+		{"name" : "PHP", "score" : 4},
+		{"name" : "Javascript", "score" : 3},
+		{"name" : "Sleep", "score" : 5},
+	]
+};
+
+var x=JSON.stringify(bio);
+document.getElementById("demo").innerHTML = x;
+</script>
